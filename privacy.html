@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Reddit Outreach</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f0f11;
+      color: #c8c8d8;
+      line-height: 1.7;
+      padding: 60px 24px;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; }
+    h1 { font-size: 1.75rem; color: #f1f1f6; margin-bottom: 8px; }
+    .meta { font-size: 0.85rem; color: #717180; margin-bottom: 48px; }
+    h2 { font-size: 1.05rem; color: #f1f1f6; margin: 36px 0 10px; }
+    p { margin-bottom: 14px; }
+    ul { padding-left: 20px; margin-bottom: 14px; }
+    ul li { margin-bottom: 6px; }
+    a { color: #FF4500; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #27272c; margin: 48px 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Reddit Outreach Chrome Extension &mdash; Last updated: February 2026</p>
+
+    <p>
+      Reddit Outreach is a Chrome extension that helps founders do manual Reddit outreach.
+      This policy explains what data the extension touches, where it lives, and what we do with it.
+    </p>
+
+    <h2>1. What data is collected</h2>
+    <p>When you scrape a Reddit post, the extension saves the following for each commenter:</p>
+    <ul>
+      <li>Reddit username and profile URL</li>
+      <li>The comment they wrote and its URL</li>
+      <li>The subreddit and post title it came from</li>
+      <li>The date you scraped it</li>
+      <li>A contact status you set (e.g. "Contacted", "Replied")</li>
+      <li>Any DM draft you write inside the extension</li>
+    </ul>
+    <p>This data comes entirely from public Reddit posts that you choose to scrape.</p>
+
+    <h2>2. Where data is stored</h2>
+    <p>
+      All data is stored locally in your browser using IndexedDB. It never leaves your device.
+      No data is sent to our servers or any third-party service.
+    </p>
+
+    <h2>3. What we do NOT do</h2>
+    <ul>
+      <li>We do not collect or transmit any data to external servers.</li>
+      <li>We do not sell, share, or monetize your data in any way.</li>
+      <li>We do not track your browsing activity.</li>
+      <li>We do not send DMs on your behalf — you do that manually.</li>
+    </ul>
+
+    <h2>4. Third-party services</h2>
+    <p>
+      The extension fetches data from Reddit's public API (<code>reddit.com/*.json</code>)
+      to retrieve post and comment content. This is subject to
+      <a href="https://www.reddit.com/policies/privacy-policy" target="_blank" rel="noopener">Reddit's Privacy Policy</a>.
+    </p>
+
+    <h2>5. Permissions used</h2>
+    <ul>
+      <li><strong>activeTab</strong> — to read the URL of the Reddit tab you're currently viewing.</li>
+      <li><strong>storage</strong> — to save your license key and settings locally.</li>
+      <li><strong>reddit.com host permission</strong> — to call Reddit's public JSON API for post/comment data.</li>
+    </ul>
+
+    <h2>6. How to delete your data</h2>
+    <p>
+      Open the extension's CRM tab and click <strong>Clear CRM</strong>.
+      This permanently deletes all stored leads from your browser.
+      You can also uninstall the extension, which removes all associated storage.
+    </p>
+
+    <h2>7. Children's privacy</h2>
+    <p>
+      This extension is intended for use by adults and is not directed at children under 13.
+    </p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>
+      If we make material changes, we will update the "Last updated" date at the top of this page.
+      Continued use of the extension after changes constitutes acceptance of the updated policy.
+    </p>
+
+    <h2>9. Contact</h2>
+    <p>
+      Questions? Email us at <a href="mailto:hi@redditoutreach.app">hi@redditoutreach.app</a>
+      or open an issue on our support page.
+    </p>
+
+    <hr />
+    <p style="font-size: 0.8rem; color: #717180;">
+      Reddit Outreach is an independent tool and is not affiliated with or endorsed by Reddit, Inc.
+    </p>
+  </div>
+</body>
+</html>
